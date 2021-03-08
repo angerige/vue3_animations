@@ -6,7 +6,7 @@ set -e
 npm run build
 
 # 进入目标文件夹
-cd docs
+cd dist
 
 # 提交到本地仓库
 
@@ -15,6 +15,6 @@ git add -A
 git commit -m 'deploy'
 
 # 提交到 https://github.com:nusr/resume-vue 项目的 gh-pages 分支
-git push -f git@github.com:angerige/vue3.0_vite2.0_animations.git main:gh-pages
+git push -f git@github.com:angerige/vue3_animations.git main:gh-pages
 
 cd -

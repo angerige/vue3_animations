@@ -11,8 +11,4 @@ export default defineConfig({
 			views: path.resolve(__dirname, "src/views"),
 		},
 	},
-	build: {
-		outDir: "docs",
-		assetsDir: "./_assets",
-	},
 });
