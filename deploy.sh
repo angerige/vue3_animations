@@ -6,7 +6,7 @@ set -e
 npm run build
 
 # 进入目标文件夹
-cd dist
+cd docs
 
 # 提交到本地仓库
 
